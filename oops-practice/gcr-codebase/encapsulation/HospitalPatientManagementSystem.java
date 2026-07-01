@@ -1,3 +1,4 @@
+package encapsulation;
 abstract class Patient {
     private String patientId;
     private String name;

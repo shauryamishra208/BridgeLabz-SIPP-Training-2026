@@ -1,3 +1,4 @@
+package encapsulation;
 abstract class Vehicle {
     private String vehicleNumber;
     private String vehicleType;

@@ -1,3 +1,4 @@
+package encapsulation;
 abstract class FoodItem {
     private String itemName;
     private double price;

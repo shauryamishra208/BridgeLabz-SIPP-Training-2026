@@ -1,3 +1,4 @@
+package encapsulation;
 abstract class Employee {
     private String employeeId;
     private String employeeName;

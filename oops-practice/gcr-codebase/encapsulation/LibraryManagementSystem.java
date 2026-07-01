@@ -1,3 +1,4 @@
+package encapsulation;
 abstract class LibraryItem {
     private String itemId;
     private String title;
