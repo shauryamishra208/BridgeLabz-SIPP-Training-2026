@@ -14,7 +14,9 @@ public class BubbleSortProductPrices {
                     swapped = true;
                 }
             }
-            if (!swapped) break;
+            if (!swapped) {
+                break;
+            }
         }
         return prices;
     }

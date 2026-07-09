@@ -14,7 +14,9 @@ public class BubbleSortStudentMarks {
                     swapped = true;
                 }
             }
-            if (!swapped) break;
+            if (!swapped) {
+                break;
+            }
         }
         return marks;
     }

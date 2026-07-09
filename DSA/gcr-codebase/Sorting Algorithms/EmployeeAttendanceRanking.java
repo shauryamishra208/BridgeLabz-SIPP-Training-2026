@@ -1,11 +1,13 @@
-import java.util.*;
+import java.util.Arrays;
 
 public class EmployeeAttendanceRanking {
 
     static int[] topKAttendance(int[] employeeIds, int[] attendance, int k) {
         int n = employeeIds.length;
         Integer[] idx = new Integer[n];
-        for (int i = 0; i < n; i++) idx[i] = i;
+        for (int i = 0; i < n; i++) {
+            idx[i] = i;
+        }
 
         Arrays.sort(idx, (a, b) -> {
             if (attendance[a] != attendance[b]) {

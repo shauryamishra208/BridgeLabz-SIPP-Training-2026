@@ -16,7 +16,9 @@ public class BubbleSortSwapCount {
                     swapped = true;
                 }
             }
-            if (!swapped) break;
+            if (!swapped) {
+                break;
+            }
         }
         return swapCount;
     }
